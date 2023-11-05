@@ -1,0 +1,38 @@
+.explore-menu {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.explore-btn {
+  font-size: 16px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.scenes {
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.scene-word {
+  cursor: pointer;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.scene-word:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
